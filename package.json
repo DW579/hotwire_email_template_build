@@ -1,0 +1,26 @@
+{
+  "name": "hotwire_template_build",
+  "version": "1.0.0",
+  "description": "Build and download the most up-to-date Hotwire template library as one html file",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omccreativeservices/hotwire_template_build.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omccreativeservices/hotwire_template_build/issues"
+  },
+  "homepage": "https://github.com/omccreativeservices/hotwire_template_build#readme",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
