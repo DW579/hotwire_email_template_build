@@ -1,5 +1,0 @@
-$(".btn").click(function() {
-
-
-});
-
