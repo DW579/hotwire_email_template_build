@@ -1,0 +1,270 @@
+html, .Body {
+  background-color: #F6F6F6;
+}
+
+.downloadLibraryPage {
+  padding: 100px;
+}
+
+.navbar {
+  background-color: #FFFFFF;
+  padding: 0;
+}
+
+.Box {
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  padding: 0 8%;
+  text-align: center;
+}
+
+.fa-tools, .fa-cloud-download-alt {
+  margin: 40px 0 0 0;
+}
+
+.fa-check-circle {
+  color: #519B00
+}
+
+.title {
+  margin: 30px 0 0 0;
+  font-size: 33px;
+  font-weight: bold;
+  color: #4C4C4C;
+}
+
+.text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  margin: 25px 0 0 0;
+}
+
+.redBtn {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  background-color: #F80000;
+  border-color: #F80000;
+  margin: 25px 0 0 0;
+}
+
+.date {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  color: #A0A0A0;
+  margin: 25px 0 40px 0;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: grey;
+}
+
+.modalBox {
+  position: relative;
+  background-color: #ffffff;
+  margin: auto;
+  padding: 0 0 100px 0;
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 25px;
+}
+
+#downloadSuccess {
+  font-style: italic;
+}
+
+/* The Close Button */
+.close {
+  color: #030303;
+  padding-right: 15px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Unique Build */
+#backButton {
+  background-color: #F6F6F6;
+  color: #F80000;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid 1px #F80000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 19px;
+  margin: 10px 0 0 10px;
+}
+
+#uniqueTitle {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #4C4C4C;
+}
+
+#uniqueText {
+  font-size: 21px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333333;
+}
+
+#mods {
+  width: 100%;
+  height: 600px;
+  border-radius: 0 0 8px 8px;
+  background-color: white;
+  float: left;
+  overflow: scroll;
+}
+
+.modsBox {
+  border: 1px solid #C4C4C4;
+  margin: 15px;
+  height: 61px;
+  background-color: #ffffff;
+}
+
+.modsTitleDiv {
+  width: 100%;
+  background-color: #606060;
+  border-radius: 8px 8px 0 0;
+}
+
+.modsTitle {
+  font-size: 18px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.thumbImg {
+  width: 60px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  background-color: #EEEEEE;
+}
+
+.modsName {
+  float: left;
+  color: #333333;
+  font-size: 18px;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: auto;
+  padding: 15px;
+}
+
+.modsAdd {
+  float: right;
+  background-color: #003B4D;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 10px;
+  padding: 8px 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.clearButton {
+  float: right;
+  background-color: #959595;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 19px;
+  margin: 4px 4px 0 0;
+}
+
+.previewTitleDiv {
+  width: 100%;
+  background-color: #1C1C1C;
+  border-radius: 8px 8px 0 0;
+}
+
+#modsUsed {
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  border-radius: 0 0 8px 8px;
+  float: left;
+  overflow: scroll;
+}
+
+#emailPreview {
+  height: 600px;
+  background-color: white;
+  border-radius: 0 0 8px 8px;
+  overflow: scroll;
+}
+
+#uniqueReset {
+  width: 100%;
+  border-radius: 8px;
+  background-color: #959595;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  padding: 5px 0;
+  margin-top: 12px;
+}
+
+#uniqueDownload {
+  width: 100%;
+  border-radius: 8px;
+  background-color: #F80000;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  padding: 5px 0;
+  margin-top: 12px;
+}
+
+/* Footer */
+.Footer {
+  padding:10px;
+}
+
+.footer {
+  background-color: #979797;
+  color: #F6F6F6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 19px;
+  text-align: center;
+  padding: 6px 0;
+}

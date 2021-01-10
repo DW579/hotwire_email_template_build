@@ -1,0 +1,117 @@
+<!-- MOD11CHTMLSTART -->
+<style type="text/css">
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+
+.showme{ display:block !important; width: auto !important; overflow: visible !important; float: none !important; max-height:inherit !important; max-width:inherit !important; line-height: auto !important; margin-top:0px !important; visibility:inherit !important;}
+body .hidefallback { display:none !important; }
+
+/* AOL FIX */
+div[class~="aolmail_hidefallback"]{ display: block !important; }
+div[class~="aolmail_showme"]{ display: none !important; }
+
+/* DESKTOP IMAGE */
+*[id]#reveal_handle { background:url('images/mod11b_kin_d.png') 0 0 no-repeat; background-size:640px 682px !important; cursor: pointer; display: block !important; width:640px !important; height:341px !important; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+/* DESKTOP CONTENT AREA / ANIMATION */
+*[id]#reveal_content { height:100px; background-color: #ffffff; max-height: 0; overflow: hidden; transition: max-height .5s ease; }
+/* CHECKBOX RESET */
+*[id]#reveal_checkbox { display:none !important; }
+/* DESKTOP SWAP ON TAP */
+*[id]#reveal_checkbox:checked + table #reveal_handle { background:url('images/mod11b_kin_d.png') 0 -341px no-repeat; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+/* DESKTOP CONTENT AREA OPEN ON TAP */
+*[id]#reveal_checkbox:checked + table ~ #reveal_content { display:block !important; max-height: 100px !important; }
+}
+
+/* MOBILE KINETIC*/
+@media only screen and (max-width: 600px) {
+/* MOBILE IMAGE */
+*[id]#reveal_handle { background: url('images/mod11b_kin_m.png') 0 0 no-repeat; background-size: 312px 388px !important; width: 312px !important; height: 194px !important; }
+/* MOBILE CONTENT AREA */
+*[id]#reveal_content { height:100px !important; }
+/* MOBILE SWAP ON TAP */
+*[id]#reveal_checkbox:checked + table #reveal_handle { background: url('images/mod11b_kin_m.png') 0 -194px no-repeat; }
+/* MOBILE CONTENT AREA ON TAP */
+*[id]#reveal_checkbox:checked + table ~ #reveal_content { display: block !important; max-height: 100px !important; }
+}
+</style>
+
+<table cellspacing="0" cellpadding="0" border="0" width="100%" style="table-layout:fixed;"><tr><td width="100%" align="center" style="vertical-align:top;">
+<table cellspacing="0" cellpadding="0" border="0"><tr><td width="640" class="width312" align="center">
+
+<!-- FALLBACK-->
+<div class="hidefallback">
+    <!-- desktop fallback -->
+    <a href="${clickthrough('11c_img_')}" class="hide"><img src="images/mod11b_fallback_d.png" width="640" height="341" border="0" style="display:block; font-family:Helvetica, sans-serif; font-size:20px; color:#ffffff;" alt="" /></a>
+    <!-- /desktop fallback -->
+    <!-- mobile fallback -->
+    <!--[if !mso]><!-->
+    <div class="show" style="display:none; float:left; overflow:hidden; width:0; max-height:0; line-height:0;">
+    <a href="${clickthrough('11c_img_')}"><img src="images/mod11b_fallback_m.png" width="312" height="194" border="0" style="display:block; font-family:Helvetica, sans-serif; font-size:20px; color:#ffffff;" alt="" /></a>
+    </div>
+    <!--<![endif]-->
+    <!-- /mobile fallback -->
+    <div style="line-height:10px;" class="lhfix">&nbsp;</div>
+    <div style="font-family: Arial, Helvetica, sans-serif; font-size:16px; line-height:18px; color:#000000;">
+        Lorem ipsum dolor sit amet:
+    </div>
+    <div style="line-height:16px;" class="lhfix">&nbsp;</div>
+    <!-- border cta -->
+    <!--[if gte mso 9]>
+    <style type="text/css">
+        .mod11ccta { border: 2px dashed #7d7d7d !important; padding:10px 25px !important; }
+    </style>
+    <![endif]-->
+    <table cellpadding="0" cellspacing="0" border="0" class="mod11ccta"><tr><td>
+    <div>
+    <a href="${clickthrough('11c_cta_')}" style="border: 2px dashed #7d7d7d; padding: 10px 25px; color: #000000; display: inline-block; font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: bold; line-height: 24px; text-align: center; text-decoration: none;" class="resetBorder">
+            COUPON&nbsp;CODE
+    </a>
+    </div>
+    </td></tr></table>
+    <!-- /border cta -->
+    <div style="line-height:10px;" class="lhfix">&nbsp;</div>
+</div>
+<!-- /FALLBACK -->
+
+<!-- KINETIC -->
+<!--[if !mso]><! -->
+<DIV class="showme" style="display:none; overflow:hidden; float:left; width:0px; max-height:0px; max-width:0px; line-height:0px; visibility:hidden;">
+<form>
+<input id="reveal_checkbox" type="checkbox">
+<table cellpadding="0" cellspacing="0" border="0">
+<tr>
+    <td width="640" class="width312">
+        <!-- image to be clicked -->
+        <label for="reveal_checkbox" id="reveal_handle"></label>
+        <!-- /image to be clicked -->
+    </td>
+</tr>
+</table>
+<div id="reveal_content">
+    <!-- hidden content -->
+    <table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td width="640" align="center" valign="top" class="width312">
+            <div style="line-height:10px;" class="lhfix">&nbsp;</div>
+            <div style="font-family: Arial, Helvetica, sans-serif; font-size:16px; line-height:18px; color:#000000;">
+                Lorem ipsum dolor sit amet:
+            </div>
+            <div style="line-height:16px;" class="lhfix">&nbsp;</div>
+            <!-- border cta -->
+            <a href="${clickthrough('11c_cta_')}" style="border: 2px dashed #7d7d7d; padding: 10px 25px; color: #000000; display: inline-block; font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: bold; line-height: 24px; text-align: center; text-decoration: none;">
+                    COUPON&nbsp;CODE
+            </a>
+            <!-- /border cta -->
+        </td>
+    </tr>
+    </table>
+    <!-- /hidden content -->
+</div>
+</form>
+</DIV>
+<!--<![endif]-->
+<!-- /KINETIC -->
+
+</td></tr></table>
+</td></tr></table>
+<div style="line-height:20px;" class="lhfix">&nbsp;</div>
+<!-- /MOD11CHTMLEND -->

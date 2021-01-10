@@ -1,0 +1,17 @@
+/* MOD9ECSS */
+.mod9eBG {
+    background-image: url('images/mod9e_bg_m.jpg') !important;
+    background-size: 312px 246px;
+}
+.height246 {
+    height: 246px !important;
+}
+.lh14 { line-height: 14px !important; }
+.height60 { height: 60px !important; }
+.lh22 { line-height: 22px !important; }
+.lh42 { line-height: 42px !important; }
+.font40 { font-size: 40px !important; }
+.lh5 { line-height: 5px !important; }
+.lh6 { line-height: 6px !important; }
+.padRight47 { padding-right: 47px !important; }
+.width112 { width: 112px !important; }
